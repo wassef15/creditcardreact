@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.CreditCard
+{
+  background-image: url("background.jpg");
+  background-size: 100% 100%;
+  width: 505px;
+  border-radius: 22px;
+  padding: 30px  ;
   color: white;
+  margin-left: 25px;
+  margin-top:25px;
+
+
+}
+.puce{
+  width: 75px;
+  margin: 20px 0;
+}
+.titre{
+  font-size: 40px;
+  text-align: end;
+} 
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.num{
+  font-size: 20px;
+  color: #251b02;
+  text-align: center;
+  background-color:rgba(136, 197, 221, 0.67);
+  width: fit-content;
+  letter-spacing:5px;
+  word-spacing: 10px;
+}
+.visa{
+  width: 80px;
+}
+.container-2{
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  margin-right: 30px;
+}
+.details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-3{
+  display: flex;
+  align-items: center;
+}
+.date{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  text-align: end;
+ }
+
+ .date-2
+ {
+  font-size: 25px;
+ }
+
+ .validation{
+  font-size: 10px;
+ }
+
+ .Inputs{
+  padding: 20px;
+  border:aqua
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ input
+ {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  
+  border-radius: 4px;
+ }
